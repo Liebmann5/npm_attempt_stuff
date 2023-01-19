@@ -1,0 +1,191 @@
+My initial problem lol
+https://forum.freecodecamp.org/t/i-am-starting-the-backend-module-and-have-no-idea-how-to-do-any-of-the-starting-tasks/499065/6
+
+Then more problems from node to express{not polar of course}... no order beyond here
+https://docs.npmjs.com/cli/v9/configuring-npm/folders
+https://stackoverflow.com/questions/14949118/node-js-error-cannot-find-module-express
+https://stackoverflow.com/questions/9133784/node-version-manager-nvm-npm-installing-modules-to-common-folder
+https://www.tutorialsteacher.com/nodejs/what-is-node-package-manager
+https://docs.npmjs.com/about-npm
+https://www.npmjs.com/package/express?activeTab=readme
+
+balls
+
+Had trouble getting express to run but shout out D Genesis
+https://stackoverflow.com/questions/13553404/express-is-not-recognized-command-windows
+
+Warning: PowerShell detected that you might be using a screen reader and has disabled PSReadLine for compatibility purposes. If you want to re-enable it, run 'Import-Module PSReadLine'.
+
+PS D:\Downloads\boilerplate-npm-main\boilerplate-npm-main> npm run start
+
+> start
+> node server.js
+
+node:internal/modules/cjs/loader:998
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- D:\Downloads\boilerplate-npm-main\boilerplate-npm-main\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\Downloads\boilerplate-npm-main\boilerplate-npm-main\server.js:9:15)       
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Downloads\\boilerplate-npm-main\\boilerplate-npm-main\\server.js'
+  ]
+}
+
+Node.js v18.12.1
+PS D:\Downloads\boilerplate-npm-main\boilerplate-npm-main> 
+
+
+AND THEN
+
+
+PS D:\Downloads\boilerplate-npm-main\boilerplate-npm-main> 'npm run start
+>>
+PS D:\Downloads\boilerplate-npm-main\boilerplate-npm-main> npm run start
+npm ERR! code EJSONPARSE
+npm ERR! path D:\Downloads\boilerplate-npm-main\boilerplate-npm-main/package.json
+npm ERR! JSON.parse Unexpected string in JSON at position 69 while parsing '{
+npm ERR! JSON.parse     "name": "fcc-learn-npm-package-json",'
+npm ERR! JSON.parse Failed to parse JSON data.
+npm ERR! JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\user\AppData\Local\npm-cache\_logs\2023-01-18T19_59_50_422Z-debug-0.log
+PS D:\Downloads\boilerplate-npm-main\boilerplate-npm-main>
+
+
+AND THEN 
+
+This is the express website https://expressjs.com/
+
+Then felt this may be important https://www.geeksforgeeks.org/node-js-repl-read-eval-print-loop/?ref=lbp
+
+https://stackoverflow.com/questions/51358235/difference-between-npm-start-and-npm-run-start
+
+circled right back to the same error...
+
+
+I think it's just due to the terminal is VSCode
+https://stackoverflow.com/questions/56199111/visual-studio-code-cmd-error-cannot-be-loaded-because-running-scripts-is-disabl
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I may want to put this back to the way it was because that didn't work!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+https://www.freecodecamp.org/news/how-to-run-the-freecodecamp-backend-challenges-locally/
+
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment
+
+
+So it seems like everytime you make a project, you'll just have to add this dumb thing
+https://stackoverflow.com/questions/45153908/why-do-i-have-to-run-npm-install-everytime-i-create-a-new-angular-2-project
+Absolutely no idea what the point of even adding it to my C: was????
+
+and of course it works now!
+
+
+Lessons/Practice to maybe learn Noce.js
+https://nodeschool.io/#workshoppers
+
+
+This also seemed important {pm2}
+https://www.npmjs.com/package/forever
+    https://nodemon.io/
+    https://www.npmjs.com/package/pm2
+
+
+
+Also this is how everything worked!! Last line is kinda interesting...
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+Warning: PowerShell detected that you might be using a screen reader and has disabled PSReadLine for compatibility purposes. If you want to re-enable it, run 'Import-Module PSReadLine'.
+
+PS C:\Users\user\ffc\Backend\boilerplate-npm-main> npm run start
+
+> start
+> node server.js
+
+node:internal/modules/cjs/loader:998
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- C:\Users\user\ffc\Backend\boilerplate-npm-main\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\user\ffc\Backend\boilerplate-npm-main\server.js:9:15)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'C:\\Users\\user\\ffc\\Backend\\boilerplate-npm-main\\server.js' ]
+}
+
+Node.js v18.12.1
+PS C:\Users\user\ffc\Backend\boilerplate-npm-main> npm install
+
+added 57 packages, and audited 58 packages in 491ms
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\user\ffc\Backend\boilerplate-npm-main> npm run start
+
+> start
+> node server.js
+
+Node.js listening on port 3000
+*
+*
+https://www.freecodecamp.org
+requested
+Terminate batch job (Y/N)? Y
+-----------------------------------------------------------------------------------
+
+
+ONCE YOU HAVE COMPLETED THE CHALLENGES, YOU CAN STOP THE SERVER BY USING CTRL+C IN THE COMMAND LINE.
+^https://stackoverflow.com/questions/35184509/make-selected-block-of-text-uppercase
+
+
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+dependency - a software dependency is a code library or package that is reused in a new piece of software
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+
+
+
+
+
+

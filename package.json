@@ -1,0 +1,20 @@
+{
+	"name": "fcc-learn-npm-package-json",
+	"author": "Nick Liebmann",
+	"description": "this is my attempt at attempting... I doubt this attempt will lead to other attempts but an attempt is an attempt none the less.               Attempt",
+	"keywords": [ "attempt", "attempting", "Messi"],
+	"license": "MIT",
+	"version": "1.0.0",
+	"dependencies": {
+		"@freecodecamp/example": "^1.2.13",
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	}
+}
