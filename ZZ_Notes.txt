@@ -184,8 +184,8 @@ dependency - a software dependency is a code library or package that is reused i
 
 
 
-
-
-
-
+Then using commit git bash 'user15038732' helped quite a bit
+https://stackoverflow.com/questions/32238616/git-push-fatal-origin-does-not-appear-to-be-a-git-repository-fatal-could-n
+and then 'linuxbandit' helped force the finish. Amen
+https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first
 
